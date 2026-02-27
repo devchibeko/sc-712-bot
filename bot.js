@@ -2,7 +2,7 @@ const TelegramBot = require('node-telegram-bot-api');
 const fs = require('fs');
 
 const token = '8714937938:AAEvnpapkevqoCey80qJRO0nAmFuphDKkdg';
-const ADMIN_ID = 5056923540; // <-- O'zingizning Telegram ID
+const ADMIN_ID = 5980482719; // <-- O'zingizning Telegram ID
 
 const bot = new TelegramBot(token, { polling: true });
 
@@ -217,4 +217,5 @@ bot.on('message', async (msg) => {
             }
         }
     }
+
 });
